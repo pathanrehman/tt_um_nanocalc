@@ -87,5 +87,16 @@ The ALU consists of:
 3. **Power Supply**
    - Standard TinyTapeout development board power (1.8V digital)
 
-### Recommended Setup
+
+### Pin Connections
+
+- **ui_in[3:0]** → A operand input switches
+- **ui_in[7:4]** → B operand input switches  
+- **uio_in[2:0]** → Operation selector switches
+- **uo_out[3:0]** → Result output LEDs/display
+- **uo_out[4]** → Carry flag LED
+- **uo_out[5]** → Zero flag LED
+
+This setup provides a complete testing environment for exploring digital arithmetic and logical operations, making NanoCalc an excellent educational tool for learning computer architecture fundamentals.
+
 
